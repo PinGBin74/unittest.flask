@@ -1,0 +1,6 @@
+Name: John, Age: 25
+Question 1: I like dumplings because they are tasty.
+Question 2: I love Siberian dumplings.
+Question 3: No, I would not like to turn into a dumpling.
+Question 4: Once I ate 100 dumplings in one sitting.
+

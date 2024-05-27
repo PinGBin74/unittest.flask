@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelmeni Survey</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Анкета любителя пельменей</h1>
+    <form action="/submit" method="post">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Возраст:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="question1">Расскажите, почему вы любите пельмени?:</label><br>
+        <textarea id="question1" name="question1" required></textarea><br><br>
+
+        <label for="question2">Какой ваш самый любимый сорт пельменей?:</label><br>
+        <textarea id="question2" name="question2" required></textarea><br><br>
+
+        <label for="question3">Вы хотели бы превратиться в пельмень?:</label><br>
+        <textarea id="question3" name="question3" required></textarea><br><br>
+
+        <label for="question4">Опишите свою самую захватывающую историю про пельмени:</label><br>
+        <textarea id="question4" name="question4" required></textarea><br><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
